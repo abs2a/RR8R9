@@ -9,7 +9,7 @@ from AarohiX.utils.inline import close_markup
 
 
 @app.on_message(
-    command(["ايقاف", "اوكف", "كافي", "انهاء"]) 
+    command(["ايقاف", "اوخخحكف", "كززافي", "انهاء"]) 
 )
 @AdminRightsCheck
 async def stop_music(cli, message: Message, _, chat_id):
